@@ -27,9 +27,9 @@ Fri - session / recap + next
 
 ## TCQ-Knowledge
 
-[Clean Code Basics](https://www.oreilly.com/library/view/the-art-of/9781449318482/)
+[Clean Code Basics](https://github.com/clean-code-craft-tcq-2/assignments/blob/main/clean-code-basics.md)
 
-[The Art of Readable Code Book Summary](https://www.oreilly.com/library/view/the-art-of/9781449318482/)
+[The Art of Readable Code Book Summary](https://github.com/clean-code-craft-tcq-2/assignments/blob/main/Art%20of%20Readable%20Code.md)
 
 ## References
 
