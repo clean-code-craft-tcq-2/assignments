@@ -25,6 +25,12 @@ Fri - session / recap + next
 
 [Modular well-named](small.md)
 
+## TCQ-Knowledge
+
+[Clean Code Basics](https://www.oreilly.com/library/view/the-art-of/9781449318482/)
+
+[The Art of Readable Code Book Summary](https://www.oreilly.com/library/view/the-art-of/9781449318482/)
+
 ## References
 
 [The Art of Readable Code](https://www.oreilly.com/library/view/the-art-of/9781449318482/) by Dustin Boswell & Trevor Foucher, ISBN 9780596802295
