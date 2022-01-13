@@ -23,7 +23,7 @@ Fri - session / recap + next
 
 ## Try It
 
-[Modular well-named](small.md)
+[Modular well-named](small.md) and [Recap](small-recap.md)
 
 ## TCQ-Knowledge
 
