@@ -1,11 +1,14 @@
 # Daily naming habits
 
-## Printing
+Try naming by purpose, not content.
+
+instead of `UserDefFunctions`, consider `ColorMapper`
 
 ```c
-for (int i = 0; i < 25; i++)
+for (int i = 0; i < 25; i++) 
+  // print all colors
 ```
-Avoid hard-coding numbers like 25. A maintainer may forget to change it when a color gets added.
+Avoid hard-coding numbers like `25`. A maintainer may forget to change it when a color gets added.
 
 ---
 Any possibility to check some aspects of the reference manual through Asserts?
@@ -41,27 +44,11 @@ for (int i = 0; i < colorMapMajor.Length; i++)
   }
 ```
 
-## Naming
-
-Try naming by purpose, not content.
-
-instead of `UserDefFunctions`, consider `ColorMapper`
-
-This looks very similar to the next for loop. Is there a possibility to extract the common functionality to a function with a 'good' name?
-
----
-
 ## Testing
 
 Every aspect of the Reference Manual has to be checked manually, including alignment, content, etc.
 E.g., when we translate the output to a different language, all these aspects need to be tested again.
+
 Can you think of asserting some aspects of the manual, to reduce the burden on a human tester?
 
 Hint: First step is to separate the forming of the manual from its printing
-
-## Norming
-
-```c
-const int MAX_COLORPAIR_NAME_CHARS = 16;
-```
-Would this work even with other languages?
