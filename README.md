@@ -23,6 +23,8 @@ Fri - session / recap + next
 
 ## Try It
 
+[Fail on false positive](fail.md)
+
 [Modular well-named](small.md) and [Recap](small-recap.md)
 
 ## TCQ-Knowledge
