@@ -33,6 +33,10 @@ Fri - session / recap + next
 
 [The Art of Readable Code Book Summary](https://github.com/clean-code-craft-tcq-2/assignments/blob/main/Art%20of%20Readable%20Code.md)
 
+[UnitTestBasics and TDD](https://github.com/clean-code-craft-tcq-2/assignments/blob/main/Unit%20Test%20and%20TDD.md)
+
+
+
 ## References
 
 [The Art of Readable Code](https://www.oreilly.com/library/view/the-art-of/9781449318482/) by Dustin Boswell & Trevor Foucher, ISBN 9780596802295
