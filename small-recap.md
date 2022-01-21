@@ -29,6 +29,9 @@ Any possibility to check some aspects of the reference manual through Asserts?
 
 Do you think Printing is appropriate inside a TelCoColor**Coder** file / class? Or should it be in its own 'Printer' class?
 
+[Testing ColorCodePairMannual Print Functionality](https://github.com/clean-code-craft-tcq-2/well-named-in-py-TalhaKhatib/pull/1/commits/025c04c680c41ca546e71798f6ade3738c8ef641)
+
+
 ## Duplication
 
 Consider - these pieces of code are copy-pasted for their 'minor' counterparts.
