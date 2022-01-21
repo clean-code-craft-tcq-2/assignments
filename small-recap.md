@@ -4,6 +4,14 @@ Try naming by purpose, not content.
 
 instead of `UserDefFunctions`, consider `ColorMapper`
 
+ex:-
+```c
+void PrintColorCodingReferenceManual()
+	{
+		....
+	}
+```  
+
 ```c
 for (int i = 0; i < 25; i++) 
   // print all colors
