@@ -24,5 +24,13 @@ void printColorMap(int pairNumber, const char *majorColor, const char *minorColo
 ```c
 // Is this a vald assertion?
  assert(alertFailureCount!=0);
+//One assert with multiple condition vs multiple assert ?
+  assert((size(0) != 'S') && (size(0) != 'M') && (size(0) != 'L'));
 ```
-
+# Code pollution and Multiple responsibilities
+```c
+void alertInCelcius(float farenheit , TESTENV testParameter) {
+    
+    }
+//Allow your production code to be free from information about the test environment.
+```
