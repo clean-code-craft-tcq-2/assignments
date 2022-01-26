@@ -36,6 +36,14 @@ void alertInCelcius(float farenheit) {
     
     NumOfAlertInCelciusFuncCalls++;
 }
+
+def print_color_map():
+    for i, major in enumerate(major_colors):
+        for j, minor in enumerate(minor_colors):
+            strlen = len(f'{i * 5 + j} | {major} | {minor}')
+            assert (strlen == 20)
+            print(f'{i * 5 + j} | {major} | {minor}')
+    return len(major_colors) * len(minor_colors)
     
 //Allow your production code to be free from information about the test environment.
 ```
