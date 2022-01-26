@@ -13,3 +13,11 @@ void printColorMap(int pairNumber, const char *majorColor, const char *minorColo
 	printf("%d | %s | %s\n", pairNumber, majorColor, minorColor);
 }
 ```
+# Don't assert on stub
+```c
+    assert(networkAlertStub(200) == 1 );
+    assert(networkAlertStub(500) == 1 )
+```
+> The stub ensures that the test runs smoothly. explore difference b/w stub and mock (TestDouble)
+
+
