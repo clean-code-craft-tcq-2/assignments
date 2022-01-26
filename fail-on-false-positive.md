@@ -3,6 +3,7 @@
 
 ex:-
 ```c
+//pure function
 float convertFarenheitToCelcius(float farenheit) {
     float celcius = (farenheit - 32) * 5 / 9;
     return celcius;
