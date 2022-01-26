@@ -56,3 +56,9 @@ int (*fnPtrForNetworkAlert)(float) = networkAlertStub;
 alertInCelcius(400.5, fnPtrForNetworkAlert);
 ```
 [Dependency Inversion and Injection](https://github.com/clean-code-craft-tcq-2/test-failer-in-c-AshidaSageer/pull/1/files)
+
+```c
+void alertInCelcius(float farenheit,float (*fpFarenheitToCelcius)(float),int (*fpnetworkAlertStub)(float)) { }
+
+```
+[Dependency Inversion and Injection](https://github.com/clean-code-craft-tcq-2/test-failer-in-c-KiruthighaKMuthusamy/blob/main/alerter.c)
