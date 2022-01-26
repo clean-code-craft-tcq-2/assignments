@@ -32,5 +32,10 @@ void printColorMap(int pairNumber, const char *majorColor, const char *minorColo
 void alertInCelcius(float farenheit , TESTENV testParameter) {
     
     }
+void alertInCelcius(float farenheit) {
+    
+    NumOfAlertInCelciusFuncCalls++;
+}
+    
 //Allow your production code to be free from information about the test environment.
 ```
