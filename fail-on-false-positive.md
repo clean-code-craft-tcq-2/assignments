@@ -20,4 +20,9 @@ void printColorMap(int pairNumber, const char *majorColor, const char *minorColo
 ```
 > The stub ensures that the test runs smoothly. explore difference b/w stub and mock (TestDouble)
 
+## assert on expected value 
+```c
+// Is this a vald assertion?
+ assert(alertFailureCount!=0);
+```
 
