@@ -1,5 +1,5 @@
 
-# Art of Seperation and Use of Pure Function
+# Art of Separation and Use of Pure Function
 
 ex:-
 ```c
