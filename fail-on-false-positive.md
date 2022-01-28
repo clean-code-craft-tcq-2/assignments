@@ -62,3 +62,5 @@ void alertInCelcius(float farenheit,float (*fpFarenheitToCelcius)(float),int (*f
 
 ```
 [Dependency Inversion and Injection by chaining calls](https://github.com/clean-code-craft-tcq-2/test-failer-in-c-KiruthighaKMuthusamy/blob/main/alerter.c)
+
+See also: [Test as Specification](fail-recap-test-as-spec.md)
