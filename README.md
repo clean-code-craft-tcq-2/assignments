@@ -23,6 +23,8 @@ Fri - session / recap + next
 
 ## Try It
 
+[Pass the failing test](pass.md)
+
 [Fail on false positive](fail.md) and [Recap](fail-on-false-positive.md)
 
 [Modular well-named](small.md) and [Recap](small-recap.md)

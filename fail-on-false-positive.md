@@ -22,18 +22,18 @@ void printColorMap(int pairNumber, const char *majorColor, const char *minorColo
 
 ## assert on expected value 
 ```c
-// Is this a vald assertion?
- assert(alertFailureCount!=0);
-//One assert with multiple condition vs multiple assert ?
+  // Is this a vald assertion?
+  assert(alertFailureCount!=0);
+  
+  //One assert with multiple condition vs multiple assert ?
   assert((size(0) != 'S') && (size(0) != 'M') && (size(0) != 'L'));
 ```
 ## Code pollution and Multiple responsibilities
 ```c
 void alertInCelcius(float farenheit , TESTENV testParameter) {
-    
-    }
+}
+
 void alertInCelcius(float farenheit) {
-    
     NumOfAlertInCelciusFuncCalls++;
 }
 
@@ -61,4 +61,4 @@ alertInCelcius(400.5, fnPtrForNetworkAlert);
 void alertInCelcius(float farenheit,float (*fpFarenheitToCelcius)(float),int (*fpnetworkAlertStub)(float)) { }
 
 ```
-[Dependency Inversion and Injection](https://github.com/clean-code-craft-tcq-2/test-failer-in-c-KiruthighaKMuthusamy/blob/main/alerter.c)
+[Dependency Inversion and Injection by chaining calls](https://github.com/clean-code-craft-tcq-2/test-failer-in-c-KiruthighaKMuthusamy/blob/main/alerter.c)
