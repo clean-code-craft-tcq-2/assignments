@@ -59,5 +59,19 @@ void temperatureIsOk(float temperature, float *tempLimitArray)
 void SOCIsOk(float soc, float *SOCLimitArray)
 void chargeRateIsOk(float chargeRate, float *chargeRateLimitArray)
 ```
+### 
+```c
+//What is the issue with this class definition?
 
+class Battery
+{
+    public:
+    bool isBatteryOK(float temperature, float soc, float chargeRate);
 
+    private:
+    bool checkTemperatureRange(float temperatue, void(*fnprint)(string));
+    bool checkStateOfCharegeRange( float soc, void(*fnprint)(string));
+    bool checkChargeRateRange(float rate, void(*fnprint)(string));
+    static void printWarning(string output);
+};
+```
