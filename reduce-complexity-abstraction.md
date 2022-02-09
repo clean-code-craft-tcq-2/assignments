@@ -1,3 +1,16 @@
+### Art of Separation
+```c
+breachAndValue checkLowerLimit(float input, float lowLimit);
+breachAndValue checkHigherLimit(float input, float highLimit);
+void printStatus(breachAndValue lowerResult , breachAndValue higherResult , int parameter);
+void limitCheck(float value, float *limit, int parameter);
+void temperatureIsOk(float temperature, float *limitArray);
+void SOCIsOk(float soc, float *limitArray);
+void chargeRateIsOk(float chargeRate, float *limitArray);
+int batteryIsOk(float temperature, float soc, float chargeRate, float *limitArray);
+void resultCheck(float *testTempList, float *testSOCList,float *testChargeRateList, batteryCondition *testResultArray,float *limitArray, int *resultBattStatus);
+```
+
 ### pure functions are predictable and testable
 ---
 ```c 
