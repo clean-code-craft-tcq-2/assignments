@@ -40,4 +40,11 @@ breachAndValue checkHigherLimit(float input, float highLimit)        // Avioding
 }
 ```
 
+### How to test these functions?
+```c
+void temperatureIsOk(float temperature, float *tempLimitArray)
+void SOCIsOk(float soc, float *SOCLimitArray)
+void chargeRateIsOk(float chargeRate, float *chargeRateLimitArray)
+```
+
 
