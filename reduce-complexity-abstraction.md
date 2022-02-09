@@ -75,3 +75,9 @@ class Battery
     static void printWarning(string output);
 };
 ```
+
+### Are these names  verbose?
+```c
+int ValidateIfBatteryParameterValueIsLessThanMinOperatingLimit(float minOperatingLimitOfBatteryParameter,  float batteryParameterValue, void (*Fn_Ptr)(char[],float))
+int ValidateIfBatteryParameterValueIsGreaterThanMaxOperatingLimit(float maxOperatingLimitOfBatteryParameter,  float batteryParameterValue, void (*Fn_Ptr)(char[],float))
+```
