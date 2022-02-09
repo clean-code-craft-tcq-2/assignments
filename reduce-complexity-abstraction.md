@@ -15,4 +15,14 @@ int limitBasedConditionCheck(float parameterValue, float max_limit) {
 	}
 	return 1;
 }
+//What is the issue with this code?
+int statusCheck(int status, const char* parameter) {
+	char statement[100];
+	strcpy(statement, alertString);
+	if (status == 0) {
+		strcat(statement, parameter);
+		(*fpPrintOnConsole)(statement);
+	}
+	return status;
+}
 ```
