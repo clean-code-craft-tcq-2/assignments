@@ -26,3 +26,18 @@ int statusCheck(int status, const char* parameter) {
 	return status;
 }
 ```
+### Multiple Responsibilities
+```c
+breachAndValue checkHigherLimit(float input, float highLimit)        // Avioding Duplication
+{
+	breachAndValue result= {0,0.0};
+	if (input  > highLimit)
+	{
+	result.status = HIGH;
+	result.breachedValue = input - highLimit ;	 // Calculate the breached value
+	}
+	return result;
+}
+```
+
+
