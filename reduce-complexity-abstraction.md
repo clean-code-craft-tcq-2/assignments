@@ -97,3 +97,32 @@ class Battery
 int ValidateIfBatteryParameterValueIsLessThanMinOperatingLimit(float minOperatingLimitOfBatteryParameter,  float batteryParameterValue, void (*Fn_Ptr)(char[],float))
 int ValidateIfBatteryParameterValueIsGreaterThanMaxOperatingLimit(float maxOperatingLimitOfBatteryParameter,  float batteryParameterValue, void (*Fn_Ptr)(char[],float))
 ```
+### Intersting Design!
+```c
+#define OK 		        true
+#define NOT_OK 	        false
+#define IS              ==
+#define IS_NOT          !=
+#define ERROR           -1
+#define AND 	        &&
+#define OR              ||
+#define IS_LESS_THAN    <
+#define IS_GREATER_THAN >
+#define AND 	        &&
+#define OR              ||
+#define LESS_THAN(x)    (x - 0.1f)
+#define GREATER_THAN(x) (x + 0.1f)
+
+bool batteryTemperature(float temperature)
+{
+    
+	if( (temperature IS_LESS_THAN MINIMUM_TEMPERATURE) OR (temperature IS_GREATER_THAN MAXIMUM_TEMPERATURE) ) 
+	{
+    	printOutofRange("Temperature");
+    	return NOT_OK;
+	}
+	else 
+		return OK;
+  
+}
+```
