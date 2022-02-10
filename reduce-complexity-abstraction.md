@@ -126,3 +126,22 @@ bool batteryTemperature(float temperature)
   
 }
 ```
+### Parametric Polymorphism in Action
+```c
+template <typename T>
+bool checkInLimits(T value, vector<T> limits) {
+  return (value < limits.at(0) || value > limits.at(1)); 
+}
+template <typename T>
+bool checkGreaterThanLimit(T value, vector<T> limits) {
+  return (value > limits.at(0));
+}
+template <typename T>
+  bool IF(T value, vector<T> limits, bool (*function_pointer)(T, vector<T>), string property) {
+    if ((*function_pointer)(value, limits)) {
+      console_print(property);
+      return false;
+    }
+    return true;
+  }
+```
