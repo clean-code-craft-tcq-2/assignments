@@ -1,6 +1,7 @@
 # Extending and Refactoring
 
 This exercise is about extending functionality.
+Work on the repository from your previous assignment to extend it (see extensions below). 
 Often, code becomes more complex while extending it.
 The 'cleanliness' of the code goes down.
 
@@ -25,6 +26,8 @@ Warnings need to be displayed in these ranges:
 
 Same for Temperature and Charge-rate.
 
+Keep in mind: Though we are starting with warning levels for all parameters, customers may give feedback to have warnings only for _some_ parameters and not others. Minimize the change needed for such 'tuning'.
+
 ### Extension 2: Support a language in addition to English
 
 Our market has expanded to German-speaking countries!
@@ -33,11 +36,15 @@ Switch the language of the printed messages based on a global variable.
 Use [Google translate](https://translate.google.com/?sl=en&tl=de&op=translate)
 if you aren't familiar with German.
 
+Keep in mind: We could add more languages in future. Minimize the code-change required.
+
 ### Extension 3: Accept input in different units
 
 Some sensors report the temperature in Fahrenheit.
 Make provision to express the unit along with the measurement.
 Avoid repeating the limits in different units.
+
+Keep in mind: This time it was temperature in a different unit. Later perhaps other measurements would have variations. Make it possible to **add** compatibility with additional variations, with minimal **modifications** to existing code.
 
 ## The starting point
 
