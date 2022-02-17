@@ -84,3 +84,23 @@ private:
 };
 
 ```
+#### Closure
+```java
+ static boolean batteryIsOk(final String temperature, final String soc, final String chargeRate) {
+
+    Temperature tempObject = (value, lowerLimit, upperLimit) -> checkIfBatteryConditionOk("Temperature", value,
+        lowerLimit, upperLimit, true);
+
+    StateOfCharge stateOfChargeObject = (value, lowerLimit, upperLimit) -> checkIfBatteryConditionOk("State Of Charge",
+        value, lowerLimit, upperLimit, true);
+
+    ChargeRate chargeRateObject = (value, upperLimit) -> checkIfChargeRateOk("Charge Rate", value, upperLimit, true);
+
+    float tempInCelcius = getTemperatureInCelcius(temperature);
+    float socInPercent = getSocInPercent(soc);
+    float chargeRateInCRate = getChargeRateInCRate(chargeRate);
+
+    return tempObject.conditionIsOk(tempInCelcius, 0, 45) && stateOfChargeObject.conditionIsOk(socInPercent, 20, 80) &&
+        chargeRateObject.conditionIsOk(chargeRateInCRate, 0.8f);
+  }
+```
