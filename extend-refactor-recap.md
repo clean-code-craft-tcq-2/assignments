@@ -104,3 +104,26 @@ private:
         chargeRateObject.conditionIsOk(chargeRateInCRate, 0.8f);
   }
 ```
+### OCP Violation
+```c
+float convert_temp_unitbased(char temp_unit , float temperature)
+{
+	float temp_celcius;
+		switch(temp_unit)
+	{/* convert any unit to celcius*/
+
+		case 'k':
+			temp_celcius = kelvin_to_celcius(temperature);
+			break;
+		case 'f':
+			temp_celcius = farenhiet_to_celcius(temperature);
+			break;
+		default:
+			temp_celcius = temperature;
+		break;
+			
+	}
+	return temp_celcius;
+	
+}
+```
