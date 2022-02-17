@@ -1,4 +1,4 @@
-### what's wrong with this code ?
+### What is the issue with this code? ?
 ```c
 
 float convertTempIfInFarenheit(float temperature, string unit)
