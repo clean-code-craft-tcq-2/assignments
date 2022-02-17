@@ -23,6 +23,8 @@ Fri - session / recap + next
 
 ## Try It
 
+[Divide and Cover](type-wise-inference.md)
+
 [Extend and Refactor](extend-refactor.md) and [Recap](extend-refactor-recap.md)
 
 [Reduce complexity with abstraction](functional.md) and [Recap](reduce-complexity-abstraction.md)
@@ -40,8 +42,6 @@ Fri - session / recap + next
 [The Art of Readable Code Book Summary](https://github.com/clean-code-craft-tcq-2/assignments/blob/main/Art%20of%20Readable%20Code.md)
 
 [UnitTestBasics and TDD](https://github.com/clean-code-craft-tcq-2/assignments/blob/main/Unit%20Test%20and%20TDD.md)
-
-
 
 ## References
 
