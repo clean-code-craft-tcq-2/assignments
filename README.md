@@ -25,9 +25,9 @@ Fri - session / recap + next
 
 [TDD first step](tdd-current-ranges.md)
 
-[Propose tests](https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAANAAY-7brxUNFVOWklBSFA2MERUVk5RNDdDRUNJT1dGSy4u) and try [a popular exercise](https://osherove.com/tdd-kata-1)
+[Propose tests](https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAANAAY-7brxUNFVOWklBSFA2MERUVk5RNDdDRUNJT1dGSy4u) and try [a popular exercise](https://osherove.com/tdd-kata-1) and [Recap](propose-test-recap.md)
 
-[Divide and Cover](type-wise-inference.md)
+[Divide and Cover](type-wise-inference.md), then [Recap](typewise-recap.md)
 
 [Extend and Refactor](extend-refactor.md) and [Recap](extend-refactor-recap.md)
 
