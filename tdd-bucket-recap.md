@@ -21,21 +21,7 @@ TEST_CASE("Check the size of given charging current samples") {
 }
 ```
 
-### Minimal code
-
-[Just enough-1](https://github.com/clean-code-craft-tcq-2/tdd-buckets-VaishakhGurumurthy-Mehendale/pull/1/files)
-
-[Just enough-2](https://github.com/clean-code-craft-tcq-2/tdd-buckets-Nallasamy-Muthupavithra/pull/1/files)
-
-[Just enough-3](https://github.com/clean-code-craft-tcq-2/tdd-buckets-Velayutha-Perumal-Trichy-Rajendran/blob/main/test-alerts.cpp)
-
-### More code
-
-[Get readings for a range](https://github.com/clean-code-craft-tcq-2/tdd-buckets-Subash-Gopal/pull/1/files)
-
-[Generate and detect ranges](https://github.com/clean-code-craft-tcq-2/tdd-buckets-anilknaidu/pull/1/files)
-
-## Second step
+## Solutions
 
 Design concepts
 
@@ -67,23 +53,8 @@ int* provideCountOfDistinctElementsInArray(int *ArrayElements, int sizeOfArray) 
 
 Parameter naming
 
+Change the name of `rfInputValues` to reflect that it must be sorted
+
 ```c
 unsigned getIndexOfLastElementInContinousRange(unsigned startIndex, const std::vector<int> &rfInputValues, int &count)
-```
-
-Test-driven discovery of domain:
-Write a test for handling negative numbers in the domain of charging/discharging currents.
-
-```c
-// Function to validate if the charging samples are non empty non negative
-int negativeNumberInArray(int *chargingSamples, int numSamples){
-    if(numSamples > 0){
-      for (int i = 0; i < numSamples; i++) {
-          if (chargingSamples[i] < 0)
-              return 0;
-      }
-      return 1;
-    }
-    return 0;
-}
 ```
