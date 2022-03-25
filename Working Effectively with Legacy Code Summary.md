@@ -90,30 +90,21 @@
   - I Don’t Understand the Code Well Enough to Change It, 
   - My Application Has No Structure.
 - Find test points.
-  2. I Need to Make a Change. What Methods Should I Test?
-  2. I Need to Make Many Changes in One Area
-  2. Do I Have to Break Dependencies for All the Classes Involved?
+  - I Need to Make a Change. What Methods Should I Test?
+  - I Need to Make Many Changes in One Area
+  -  Do I Have to Break Dependencies for All the Classes Involved?
 - Break dependencies.
-  3. How Do I Know That I’m Not Breaking Anything?
-  3. I Can’t Get This Class into a Test Harness,
-  3. I Can’t Run This Method in a Test Harness
-  3. I Need to Change a Monster Method and I Can’t Write Tests for It.
-  3. It Takes Forever to Make a Change
+  - How Do I Know That I’m Not Breaking Anything?
+  - I Can’t Get This Class into a Test Harness,
+  - I Can’t Run This Method in a Test Harness
+  -  I Need to Change a Monster Method and I Can’t Write Tests for It.
+  -   It Takes Forever to Make a Change
 - Write tests.
-  4. I Need to Make a Change but I Don’t Know What Tests to Write,
+  - I Need to Make a Change but I Don’t Know What Tests to Write,
 - Make changes and refactor.
-  5. How Do I Add a Feature
-  5. This Class/Function  Is Too Big and I Don’t Want It to Get Any Bigger
-  5. I’m Changing the Same Code All Over the Place
-
-
-
-####  Critical concepts in legacy work: sensing, separation, and seams.
-
-----
-
-- **Sensing**—We break dependencies to **sense** when we can’t access values our code computes.
-- **Separation**—We break dependencies to separate when we can’t even get a piece of code into a test harness to run.
+  - How Do I Add a Feature
+  - This Class/Function  Is Too Big and I Don’t Want It to Get Any Bigger
+  - I’m Changing the Same Code All Over the Place
 
 
 
