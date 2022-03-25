@@ -19,8 +19,44 @@ TEST_CASE("Check the size of given charging current samples") {
 	size_t numberOfSamples = FindNumberOfSamples(chargingCurrentSamples);
 	REQUIRE(numberOfSamples == expectedSize);
 }
+
+
+void checkNumberOfReadingsInRange(int* inputStream, int rangeStart, int rangeEnd)
+{
+	int i, numberOfReadings = 0;
+	for(i = 0; i < DATA_STREAM_SIZE; i++)
+	{
+		if((inputStream[i] >= rangeStart) && (inputStream[i] <= rangeEnd))
+		{
+			numberOfReadings++;
+		}
+	}
+
+	sprintf(RangeAndReading, "%d-%d,%d",rangeStart, rangeEnd, numberOfReadings);
+}
+TEST_CASE("check number of readings in given range from charging session"){
+  	int data[DATA_STREAM_SIZE] = {4,5};
+	int rangeLow = 4;
+	int rangeHigh = 5;
+	checkNumberOfReadingsInRange(data, rangeLow, rangeHigh);
+	REQUIRE(!strncmp(RangeAndReading, "4-5,2", 5));
+}
+
+TEST_CASE("check of no readings found in given range from charging session"){
+  	int data[DATA_STREAM_SIZE] = {3,0,-2,10,100};
+	int rangeLow = 4;
+	int rangeHigh = 7;
+	checkNumberOfReadingsInRange(data, rangeLow, rangeHigh);
+	REQUIRE(!strncmp(RangeAndReading, "4-7,0", 5));
+}
 ```
 
+### Interesting Test Case
+```c
+def test_calc_ranges_invalid(self):
+      self.assertTrue(current_range_calc.calc_ranges([3,5,7,9]) ==  {})
+
+```
 ## Solutions
 
 Design concepts
@@ -28,6 +64,9 @@ Design concepts
 - [Samples in one range](https://github.com/clean-code-craft-tcq-2/tdd-buckets-Ranjeth-Sundaram1/blob/856fd6014bbb2eed21eca8d3fe866d6031ca76fe/validate_samples.test.py)
 - [BDD with catch](https://github.com/clean-code-craft-tcq-2/tdd-buckets-MeeraMenon1807/blob/90ccf3bd842233107b2401ec0e1461672d48639c/test-tdd.cpp)
 - [Testing lower level funcs, avoid modifying input](https://github.com/clean-code-craft-tcq-2/tdd-buckets-Paul-Ajay/pull/1/files)
+- [Good Demonstartion Of TDD Steps](https://github.com/clean-code-craft-tcq-2/tdd-buckets-VishnuNarayanan1/blob/main/testCases.cpp)
+- [TDD Kata](https://github.com/clean-code-craft-tcq-2/tdd-buckets-GunaseelanRajamanickam)
+
 
 Algorithms
 
