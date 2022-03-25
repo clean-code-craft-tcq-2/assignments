@@ -30,3 +30,13 @@ Implement a separate function for this conversion. Note that it's a pure functio
 First, Write an end-to-end test. Supply an array of 12-bit integers and assert the expected ranges.
 
 Then chain the new implementation to the old one, in order to pass the test.
+
+## One more sensor
+
+This time, the customer brings a sensor capable of detecting both charging and discharging (positive and negative) currents.
+This has a 10-bit A2D (reports numbers 0 thru 1023), spanning currents from -15 Amps to +15 Amps.
+
+A reading of 0 means -15 Amps, 1022 means +15 Amps and 511 means no current.
+
+Note that we are only interested in the magnitude (absolute value) of the current to select circuit components, not the direction.
+For example, +12 Amps and -12 Amps must be counted in the same range.
