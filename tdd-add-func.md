@@ -1,6 +1,6 @@
 # Test-driven extensions
 
-Whether your legacy code has tests or not - you can still write the test for an extension of functionality.
+Make these extensions on your existing repository. By separating the extension, you can always write tests for an extension of functionality.
 
 Make sure you specify the responsibility of the extension. Be clear about the division of responsibilities between existing code and the extension.
 
@@ -15,6 +15,8 @@ A reading of 4095 indicates an error.
 Your program needs to be compatible with 12-bit input. Assume that the 12-bit numbers are transmitted as an array of integers (_no_ bit-level packing).
 
 ### Test driven development
+
+>Add separately, then integrate
 
 Write separate tests for:
 
