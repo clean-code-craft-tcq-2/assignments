@@ -7,10 +7,10 @@ In this project, you will write code, handover and work on another person's code
 
 ## Part 1: Preprocess and standardize
 
-Preprocess and send: Receive data from simulated sensors. Process and send **standardized data** on the console.
+Preprocess and send: Receive data from sensors (simulate them). Process and send **standardized data** on the console.
 
-You are free to choose any standard (csv, json, etc).
-Make sure the choice of standard is visible in your test cases.
+You are free to choose any standard (csv, json, etc) and define the semantics on top of it.
+Make sure the choice of standard and semantics are visible in your test cases.
 
 Setup GitHub workflows to build and run. Make sure the GitHub Action passes with maximum possible coverage.
 
@@ -18,9 +18,9 @@ Setup GitHub workflows to build and run. Make sure the GitHub Action passes with
 
 ## Part 2: Exchange
 
-You'll get the GitHub username of the person who will take over your code. Add as an admin to your repo.
-Similarly, you will take over another repo.
+You'll get the GitHub username of the person who will take over your code. Add as an admin to your repository.
+Similarly, you will take over another repository.
 
 ## Part 3: 
 
-After taking over, take the standardized data from console and compute basic statistics.
+After taking over, take the **standardized data** from console and compute basic statistics.
