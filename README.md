@@ -23,7 +23,9 @@ Fri - session / recap + next
 
 ## Try It
 
-[Add functionality using TDD](tdd-add-func.md)
+[Streaming project](streaming-project.md)
+
+[Add functionality using TDD](tdd-add-func.md) and [Recap](tdd-extend-recap.md)
 
 [TDD first step, then move to completion](tdd-current-ranges.md) and [Recap](tdd-bucket-recap.md)
 
