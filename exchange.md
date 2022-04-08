@@ -6,9 +6,9 @@ You are going to take-over and develop the Receiver in phases
 
 ## Phase-1: Grant access
 
-1. [Click here](exchange-tcq2.pdf) to see the details of the exchange
+1. [Click here](exchange-tcq2.pdf) to see the details of the exchange. Notice the three columns.
 1. Look for your GitHub username in the 'sender developer' column
-1. Look for the GitHub username in the 'transfer to' column. Grant this user write-access to your repo.
+1. In that row, look for the GitHub username in the 'transfer to' column. Grant this user write-access to your repo.
 
 ## Phase-2: Peer review
 
@@ -16,15 +16,15 @@ Look for your GitHub username in the 'transfer to' column. The url to the left o
 
 Check if you can understand the sender's interface. Check if it can run and generate output on the console. Enter your comments / questions / compliments. Focus on the code, not the person.
 
-Caution: These are public repos, so do not communicate personal information such as phone numbers, etc.
+Caution: These are public repos. Do not communicate personal information such as phone numbers, etc. in the comments.
 
-Do not wait for answers. Knowledge of the Sender's output-format is sufficient to develop the Receiver - you don't need to run the Sender till you reach the integration-phase.
+Do not wait for a response to your comments. The Sender's output-format is sufficient to develop the Receiver - you don't need to run the Sender till you reach the integration-phase.
 
 ## Phase-3: Check access
 
-Check if you have access to the repo you will take-over.
+Check if you have access to the new repo, which you take-over.
 
-Respond to the person who has reviewed your Sender.
+In your old repo, respond to the person who has reviewed your Sender.
 
 ## Phase-4: Develop the Receiver
 
