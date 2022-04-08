@@ -71,7 +71,7 @@ by Kent Beck, ISBN: 9780321146533
 >each test can cover a small increment of functionality
 
 ---
-[Working Effectively with Legacy Code](https://www.oreilly.com/library/view/working-effectively-with/0131177052/)
+[Working Effectively with Legacy Code](https://www.oreilly.com/library/view/working-effectively-with/0131177052/) by Michael Feathers, ISBN: 9780131177055
 
 >Code without tests is bad code. It doesn’t matter how well written it is; it doesn’t matter how pretty or encapsulated it is. With tests, we can change the behavior of our code quickly and verifiably. Without them, we really don’t know if our code is getting better or worse.
 
