@@ -12,6 +12,8 @@ You are going to take-over and develop the Receiver in phases
 
 ## Phase-2: Peer review
 
+This can go in parallel with Phase-1.
+
 Look for your GitHub username in the 'transfer to' column. The url to the left of it would be the repo you will take-over. Click on that link to access the pull request.
 
 Check if you can understand the sender's interface. Check if it can run and generate output on the console. Enter your comments / questions / compliments. Focus on the code, not the person.
@@ -34,6 +36,6 @@ Establish a workflow in GitHub Actions to build and test your Receiver.
 
 Code the Receiver in that repo. Let it be testable without having to run the Sender.
 
-## Phase-5: Integrate
+## Phase-5: Integrate (optional)
 
 Build both the Sender and your Receiver in a workflow. Pipe the output of the Sender to the Receiver.
