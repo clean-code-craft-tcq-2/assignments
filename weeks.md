@@ -47,7 +47,7 @@ Strong, consistent proof of functionality -
 [Java](https://github.com/clean-code-craft-tcq-1/bms-monitor-java) |
 [Python](https://github.com/clean-code-craft-tcq-1/bms-monitor-py)
 
-**Week 5**: Extend with Open-close
+**Week 5**: Open for extensions
 
 [Extend and Refactor](extend-refactor.md) the previous assignment
 
