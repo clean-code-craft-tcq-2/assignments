@@ -4,7 +4,7 @@ Weekly assignments to build habits for clean-code
 
 **Entrance**: Test-driven statistics
 
-[Checkpoint](entry.md): Familiarity with programming environment, test framework; Participate.
+[Checkpoint](entry.md): Ability to program with tests; Participate.
 
 [C](https://github.com/clean-code-craft-tcq-1/statisact-c) |
 [C++](https://github.com/clean-code-craft-tcq-1/statisact-cpp) |
@@ -14,7 +14,7 @@ Weekly assignments to build habits for clean-code
 
 **Week 1**: Modular, well-named
 
-[Breakdown](small.md) large code, be sensitive to readers, add code with minimal side-effects
+[Breakdown large code](small.md), be sensitive to readers, add code with minimal side-effects
 
 [C](https://github.com/clean-code-craft-tcq-1/modular-colorcoder-c) |
 [C++](https://github.com/clean-code-craft-tcq-1/modular-colorcoder-cpp) |
@@ -53,7 +53,7 @@ Strong, consistent proof of functionality -
 
 **Week 6**: Coverage Assessment using Strategy pattern
 
-Mid-course assessment - see [summary and grading criteria](type-wise-inference.md)
+Mid-course assessment - [summary and grading criteria](type-wise-inference.md)
 
 [C](https://github.com/clean-code-craft-tcq-1/typewise-alert-c) |
 [C++](https://github.com/clean-code-craft-tcq-1/typewise-alert-cpp) |
